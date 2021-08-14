@@ -731,6 +731,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+	
+var dbRef = firebase.database();
+var leadsRef = database.ref('CMData');
+leadsRef.on('value', function(snapshot) {
+snapshot.forEach(function(childSnapshot) {
+      var childData = childSnapshot.val();
+	console.log(childData);
+});
+});
 </script>
 </body>
 
