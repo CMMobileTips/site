@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 /******************************
@@ -275,7 +275,7 @@
 	}
 	.product_description
 	{
-		padding-top: 80px;
+		padding-top: 30px;
 	}
 	.newsletter_title_container
 	{
@@ -563,7 +563,7 @@
 	}
 	.single_product
 	{
-		padding-top: 80px;
+		padding-top: 20px;
 	}
 	.image_selected
 	{
@@ -575,7 +575,7 @@
 	}
 	.product_name
 	{
-		font-size: 24px;
+		font-size: 20px;
 	}
 	.product_quantity
 	{
