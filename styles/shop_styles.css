@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 /******************************
@@ -1420,7 +1420,7 @@ select option
 {
 	display: block;
 	position: relative;
-	max-width: 100%;
+	max-width: 50%;
 }
 .product_content
 {
@@ -2283,4 +2283,27 @@ select option
 .logos_list li:last-child
 {
 	margin-right: 0px;
+}
+
+.shop_logo {
+    top: 50%;
+    left: 0%;
+}
+
+    .shop_logo img {
+        width: 150px;
+    }
+
+.contact_info {
+    margin-top: 10px;
+    color: #828282;
+}
+
+.phone {
+    margin-top: 5px;
+}
+
+.contact_info i {
+    padding-right: 5px;
+    color: #0e8ce4;
 }

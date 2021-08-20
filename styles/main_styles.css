@@ -1233,14 +1233,13 @@ select {
 
 .banner_price {
     font-size: 30px;
-    color: #df3b3b;
-    margin-top: 87px;
+    color: #0e8ce4;
 }
 
     .banner_price span {
         display: inline-block;
         position: relative;
-        color: #7e8285;
+        color: #0e8ce4;
         margin-right: 14px;
     }
 
@@ -1268,7 +1267,7 @@ select {
 
 .banner_product_image {
     position: absolute;
-    top: -5px;
+    top: -70px;
     right: -52px;
     z-index: 0;
 }
@@ -2617,9 +2616,9 @@ select {
     transition: all 200ms ease;
 }
 
-    .bestsellers_category a:hover {
-        color: #0e8ce4;
-    }
+.bestsellers_category a:hover {
+    color: #0e8ce4;
+}
 
 .bestsellers_name {
     margin-top: 2px;
@@ -2779,8 +2778,8 @@ select {
 
 .adverts {
     width: 100%;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .advert {
@@ -2797,7 +2796,7 @@ select {
 .advert_subtitle {
     font-size: 12px;
     color: rgba(0,0,0,0.5);
-    margin-bottom: 26px;
+    margin-bottom: 10px;
 }
 
 .advert_title a {
@@ -2826,8 +2825,9 @@ select {
 }
 
 .advert_image {
-    width: 178px;
+    width: 100px;
     height: 100%;
+    margin-right: 10px;
 }
 
     .advert_image img {
@@ -3718,4 +3718,49 @@ td {
 .bestsellers_fav {
     color: rgba(0,0,0,0.5);
     font-size: 12px;
+}
+
+.adverts_title {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.advert_col {
+    margin-top: 30px;
+}
+
+.welcome {
+    width: 100%;
+    padding-top: 30px;
+}
+
+    .welcome i {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+div.paragraph {
+    text-align: justify;
+}
+
+.shop_logo {
+    top: 50%;
+    left: 0%;
+}
+
+    .shop_logo img {
+        width: 150px;
+    }
+
+.contact_info {
+    margin-top: 10px;
+    color: #828282;
+}
+
+.phone {
+    margin-top: 5px;
+}
+
+.contact_info i {
+    padding-right: 5px;
+    color: #0e8ce4;
 }
